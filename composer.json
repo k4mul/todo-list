@@ -1,0 +1,10 @@
+{
+    "autoload": {
+        "psr-4": {
+            "ToDo\\": "app/src"
+        }
+    },
+    "require": {
+        "slim/slim": "^3.0"
+    }
+}

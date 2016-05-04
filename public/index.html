@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>ToDo</title>
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/skeleton.css">
+        <link rel="stylesheet" href="css/todo.css">
+        <link rel="icon" type="image/png" href="images/favicon.png">
+    </head>
+    <body>
+
+        <div class="container">
+            <h2>Do zrobienia:</h2>
+            <table class="u-full-width">
+                <thead>
+                    <tr>
+                        <th>Nazwa</th>
+                        <th>Data</th>
+                        <th>Akcja</th>
+                    </tr>
+                </thead>
+                <tbody id="table-tasks">
+                </tbody>
+            </table>
+            <form id="form-addnew">
+                <h5>Dodaj nowy wpis</h5>
+                <div class="row">
+                    <div class="nine columns">
+                        <input class="u-full-width" type="text" placeholder="Treść nowego wpisu..." id="input-name">
+                    </div>
+                    <div class="three columns">
+                        <input class="button-primary" type="submit" value="dodaj nowy wpis" id="input-submit">
+                    </div>
+                </div>
+            </form>
+        </div>
+      
+        <script src="js/fetchival.min.js"></script>
+        <script src="js/todo.js"></script>
+    </body>
+</html>
